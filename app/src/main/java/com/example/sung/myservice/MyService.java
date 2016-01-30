@@ -24,7 +24,11 @@ public class MyService extends Service {
         super.onDestroy();
     }
 
-    //아래의 메서드에서 받아서 처리를 해준다.
+    /**
+     * 아래의 메서드에서 받아서 처리를 해준다.
+     *
+     **/
+
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
         Log.d(TAG, "onStartCommand() 호출됨");
