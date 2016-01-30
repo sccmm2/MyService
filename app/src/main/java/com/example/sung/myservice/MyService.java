@@ -23,7 +23,6 @@ public class MyService extends Service {
         Log.d(TAG, "onDestroy() 호출됨");
         super.onDestroy();
     }
-
     /**
      * 아래의 메서드에서 받아서 처리를 해준다.
      *
